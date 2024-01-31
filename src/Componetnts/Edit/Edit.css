@@ -1,0 +1,30 @@
+/* styles.css */
+
+.editMain {
+    font-family: Arial, sans-serif;
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .editMain form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .editMain input {
+    padding: 8px;
+  }
+  
+  .editMain button {
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+  }
+  
