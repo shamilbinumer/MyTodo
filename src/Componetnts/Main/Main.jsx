@@ -118,7 +118,7 @@ useEffect(()=>{
                       .map((data, index) => (
                         <div className="datas" key={index}>
                         <div className="data-left">
-                <input type="checkbox"  onChange={() => updateTask(data._id, data.completed)} /><span>{data.task}</span>
+                <input type="checkbox"  checked={data.completed}  onChange={() => updateTask(data._id, data.completed)} /><span>{data.task}</span>
                 </div>
                 <div className="data-right">
                 <MdDelete className='icon' onClick={() => delTask(data._id)}/>
